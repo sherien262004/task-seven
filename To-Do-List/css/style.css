@@ -1,0 +1,147 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+:root{
+  --firstcolor: rgba(192, 192, 192, 0.708);
+--secondcolor:rgb(241, 70, 40);
+--thirdcolor: red;
+--color-four:black;
+--color-five:silver;
+--color-six:white;
+}
+ .main-nav{
+   background-color: var(--firstcolor);
+    border-radius:5px;
+    width:60%;
+  margin:0 auto;
+  text-align: center;
+ }
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  background-color: var(--secondcolor);
+ 
+}
+   .navbar img{
+    width:60px;
+border-radius: 50%;
+   }
+   .navbar ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+     padding-top: 7px;
+   }
+   .navbar a{
+    text-decoration: none;
+    color:var(--color-six);
+font-weight: bold;
+margin: 10px;
+   }
+.navbar ul li a
+   {
+    padding: 30px 20px;
+   }
+   /* #about_us {
+    background-color: azure;
+   } */
+   #about_us #about{
+    font-weight: normal;
+    padding-left: 10px;
+     margin-right: 10px;
+     /* width: 60%; */
+   }
+   #about_us #about h2{
+    text-align: center;
+   }
+   #about_us img{
+    border-radius: 50%;
+     margin-right: 40px;
+     box-shadow: 2px 2px 2px var(--thirdcolor);
+   }
+   #about_us p{
+    font-weight: bolder;
+    line-height: 2.3;
+    text-indent: 1px;
+   }
+   #menu h2{
+      text-align: center;
+   }
+   #menu img{
+    border-radius: 20%;
+   }
+   #menu tr{
+    text-align: center;
+   }
+   #menu .price{
+    font-weight: bold;
+   }
+   body{
+        background-image: url('../../images/background.jpeg');
+   width: 100vw;
+   height: 100vh;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+   }
+   .form-wrap{
+   /* background-color: rgb(241, 70, 40); */
+   color:var(--color-four);
+   font-weight: bolder;
+   width:30%;
+   border-radius:10px;
+   margin-left:10px;
+   margin-top: 10px;
+   padding-left: 10px;
+   border:2px solid var(--color-four);
+   margin:0 auto;
+}
+.form-box .form-wrap input{
+    border-radius:5px;
+    border:none;
+    background-color: var(--color-five);
+    width:100%;
+} 
+.form-box .form-wrap h3{
+  text-align: center;
+}
+#area{
+    border-radius:5px;
+     width:100%;
+     background-color:var(--color-five);
+} 
+.form-box .form-wrap #select{
+   background-color: var(--color-five);
+    border-radius:5px;
+     width:100%;
+     border:none;
+}
+  button{
+height: 30px;
+     border-radius: 7px;
+   background-color: var(--color-five);
+     border:none;
+     width:30%;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+     margin-bottom: 5px ;
+    margin-top: 8px; 
+  } 
+  #contact-us{
+    text-align: center;
+    font-weight: bold;
+  }
+  footer{
+  background-color: var(--secondcolor);
+    border-radius:5px;
+    width:100%;
+  margin:0 auto;
+  text-align: center;
+  color:var(--color-six);
+  height: 70px;
+  padding-top: 10px;
+ }
